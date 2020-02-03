@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:Light,Regular,Bold,Black);
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Muli !important;
+	font-weight: Bold;
+	color: #001747 !important;
+	padding-bottom: 15px;
+}
+
+body {
+	font-family: 'Muli', sans-serif !important;
+}
+.jumbotron-bg {
+	background-color: white;
+}
+
+.card-container {
+	background-color: lightblue;
+	color: blue;
+	text-align: center;
+}
+
+.w-100 {
+	height: 500px;
+}
+
+.apps {
+	height: 250px;
+}
+
+/*changes the color of the buttons*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+	background-color: #001747 !important;
+	border-color: #001747 !important;
+}
+
+.lead {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #001747 !important;
+}
+
+.navbar-collapse {
+	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"
+}
