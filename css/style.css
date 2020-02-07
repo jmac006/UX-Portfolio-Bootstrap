@@ -41,5 +41,86 @@ body {
 }
 
 .navbar-collapse {
-	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"
+	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
+}
+
+.foot {
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 50px;
+}
+.social-icons-footer {
+  	display: flex;
+  	align-items: center;
+  	width: auto;
+}
+
+.social-icons {
+	display: flex;
+	padding-right: 50px;
+	/*width: 30%;*/
+}
+
+.insta {
+	background-image: url('../images/insta-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+}
+
+.email {
+	background-image: url('../images/email-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 25px;
+	margin-left: 0px;
+	margin: 25px 25px 25px 0;
+}
+
+.dribbble {
+	background-image: url('../images/dribbble-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+}
+
+.linkedin {
+	background-image: url('../images/linkedin-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+}
+
+.homebutton {
+	padding: 5px;
+	display: inline-block;
+	width: 200px;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card {
+	margin: 15px;
+}
+
+.form-group {
+	width: 40% !important;
+}
+
+.submit a {
+	color: #001747 !important;
 }
