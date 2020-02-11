@@ -1,17 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:Light,Regular,Bold,Black);
 
-h1, h2, h3, h4, h5, h6 {
+.jumbotron h1, h2 {
+	color: white !important;
+}
+
+.lead {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white !important;
+}
+
+h3, h4, h5, h6 {
 	font-family: Muli !important;
 	font-weight: Bold;
 	color: #001747 !important;
 	padding-bottom: 15px;
 }
 
+.jumbotron a.btn.btn-primary.btn-lg{
+	border-color: white !important;
+}
+
 body {
 	font-family: 'Muli', sans-serif !important;
 }
 .jumbotron-bg {
-	background-color: white;
+	background-color: #001747 !important;
+}
+
+.jumbotron {
+	background-color: #001747 !important;
 }
 
 .card-container {
@@ -34,11 +52,7 @@ body {
 	border-color: #001747 !important;
 }
 
-.lead {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	color: #001747 !important;
-}
+
 
 .navbar-collapse {
 	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
@@ -138,8 +152,7 @@ body {
 }
 
 .jumbotron-bg {
-	background: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80);
-    background-position: bottom;
+	background-position: bottom;
     background-origin: content-box;
     background-size: cover;
     background-repeat: no-repeat;
