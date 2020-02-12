@@ -4,6 +4,10 @@
 	color: white !important;
 }
 
+.alert {
+	display: none;
+}
+
 .lead {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -52,7 +56,9 @@ body {
 	border-color: #001747 !important;
 }
 
-
+.navbar {
+	height: 70px;
+}
 
 .navbar-collapse {
 	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
@@ -163,8 +169,51 @@ body {
 
 .jumbotron {
 	padding: 0 !important;
+	position: relative;
 }
 
 .intro-div {
 	padding: 5%;
+}
+
+@keyframes floating-image {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.profile {
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	border: 0px black solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: floating-image 6s ease-in-out infinite;
+}
+
+.profile img {
+	width: 100%;
+	height: auto;
+}
+
+
+@media only screen and (max-width: 1170px) {
+	.intro-div {
+		width: 50%; /*allows room for profile picture*/
+	}
 }
