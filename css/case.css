@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:Light,Regular,Bold,Black);
 
-.jumbotron h1, h2 {
+h1 {
 	color: white !important;
+	font-weight: 700 !important;
 }
 
 .alert {
