@@ -5,6 +5,11 @@ h1 {
 	font-weight: 700 !important;
 }
 
+.display-3 {
+	font-size: 3em !important; 
+	margin-bottom: 35px;
+}
+
 .alert {
 	display: none;
 }
@@ -22,6 +27,10 @@ h3, h4, h5, h6 {
 	padding-bottom: 15px;
 }
 
+p {
+	color: #001747 !important;
+}
+
 .jumbotron a.btn.btn-primary.btn-lg{
 	border-color: white !important;
 }
@@ -29,8 +38,15 @@ h3, h4, h5, h6 {
 body {
 	font-family: 'Muli', sans-serif !important;
 }
+
 .jumbotron-bg {
+	background-position: bottom;
 	background-color: #001747 !important;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+	width: 100%;
 }
 
 .jumbotron {
@@ -45,10 +61,6 @@ body {
 
 .w-100 {
 	height: 500px;
-}
-
-.apps {
-	height: 250px;
 }
 
 /*changes the color of the buttons*/
@@ -158,15 +170,7 @@ body {
 	font-weight: 500;
 }
 
-.jumbotron-bg {
-	background-position: bottom;
-    background-origin: content-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
-	height: 500px;
-	width: 100%;
-}
+
 
 .jumbotron {
 	padding: 0 !important;
@@ -174,7 +178,8 @@ body {
 }
 
 .intro-div {
-	padding: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 @keyframes floating-image {
@@ -212,13 +217,23 @@ body {
 	height: auto;
 }
 
+.case-img {
+	height: 300px;
+	width: 30%;
+}
 
-@media only screen and (max-width: 1170px) {
-	.intro-div {
-		width: 50%; /*allows room for profile picture*/
-	}
+.logo {
+	width: 100%;
+}
 
-	.display-3 {
-		font-size: 3em !important;
-	}
+.team-img {
+	width: 100%;
+}
+
+.iphone {
+	height: 300px;
+}
+
+.section-container {
+	margin-bottom: 50px;
 }
